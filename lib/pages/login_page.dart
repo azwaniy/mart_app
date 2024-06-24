@@ -42,18 +42,23 @@ class LoginPage extends StatefulWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            //logo
+            /*logo
             Icon(
               Icons.lock_open_rounded,
               size: 72,
               color: Theme.of(context).colorScheme.inversePrimary,
             ),
+            */
+            Image.asset(
+                'assets/images/logo1.png', // Ensure this path is correct
+                height: 200, // Adjust the height as needed
+              ),
 
             const SizedBox(height: 25),
 
             //message, app slogan
             Text(
-              "Supermarket App", 
+              "Where Variety Meets Value", 
               style: TextStyle(
                 fontSize: 16,
                 color: Theme.of(context).colorScheme.inversePrimary,
