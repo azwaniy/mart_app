@@ -5,7 +5,7 @@ import 'package:mart_app/components/my_button.dart';
 import 'home_page.dart';
 
 class LoginPage extends StatefulWidget {
-  final void Function()? onTap;
+  final VoidCallback onTap;
 
   const LoginPage({super.key, required this.onTap});
 

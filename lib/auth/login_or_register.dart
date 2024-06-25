@@ -4,7 +4,7 @@ import 'package:mart_app/pages/login_page.dart';
 import '../pages/register_page.dart';
 
 class LoginOrRegister extends StatefulWidget {
-  final void Function()? onTap;
+  final VoidCallback onTap;
 
   const LoginOrRegister({super.key, required this.onTap});
 

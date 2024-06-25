@@ -73,7 +73,7 @@ flutter:
     - lib/images/beverages/
     - lib/images/b&pc/
     - lib/images/others/
-    - assets/images/logo.png/
+    - assets/images/logo.png
     - assets/images/logo1.png
     # - images/a_dot_ham.jpeg
 
